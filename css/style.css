@@ -125,7 +125,6 @@ input[type=date], input[type=datetime-local], input[type=email], input[type=numb
     background: #ddd !important;
     height: 60px;
     line-height: 60px;
-    transition: all 0.6s;
     color: #555;
 }
 .small .navbar-brand {
@@ -420,11 +419,10 @@ section.banner h1 {
     text-align: left;
     font-weight: 650;
     font-family: 'Source Sans Pro', sans-serif;
-    transition: all 500ms ease;
 }
 section.banner h2 {
     color: #ffffff;
-    font-size: 400%;
+    font-size: 350%;
     position: absolute;
     bottom: 5px;
     text-shadow: 1px 1px 1px #373d42;
@@ -434,15 +432,8 @@ section.banner h2 {
     text-align: left;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 500;
-    transition: all 500ms ease;
 }
-
-@media only screen and (max-width : 1592px) {
-    section.banner h2 {
-        font-size: 350% !important;
-    }
-}
-@media only screen and (max-width : 1394px) {
+@media only screen and (max-width : 1414px) {
     section.banner h2 {
         font-size: 300% !important;
     }
@@ -478,25 +469,16 @@ section.banner h2 {
 @media only screen and (max-width : 600px) {
     section.banner h1 {
         font-size: 450% !important;
+        margin-bottom: 100px;
     }
 }
 @media only screen and (max-width : 524px) {
     section.banner h1 {
-        margin-bottom: 100px;
-    }
-}
-
-@media only screen and (max-width : 440px) {
-    section.banner h1 {
-        font-size: 325% !important;
-        margin-bottom: 100px;
+        font-size: 325%;
     }
     section.banner h2 {
         font-size: 200% !important;
-        margin-bottom: 30px;
-    }
-    section.banner {
-        max-height: 300px;
+        margin-bottom: 15px;
     }
 }
 
