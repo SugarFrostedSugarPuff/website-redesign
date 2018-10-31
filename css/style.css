@@ -684,13 +684,13 @@ input[type=submit]:hover {
     padding: 0;
 }
 
-.main_team_area .main_team_content .single_team .single_team_overlay .team_socail{}
-.main_team_area .main_team_content .single_team .single_team_overlay .team_socail a i{
+.main_team_area .main_team_content .single_team .single_team_overlay .team_social{}
+.main_team_area .main_team_content .single_team .single_team_overlay .team_social a i{
     color:#fff;
     padding:0px 2px;
     transition: all 0.3s;
 }
-.main_team_area .main_team_content .single_team .single_team_overlay .team_socail a:hover i{
+.main_team_area .main_team_content .single_team .single_team_overlay .team_social a:hover i{
     color:#000;
     border-bottom: 2px solid #000;
 }
@@ -1351,7 +1351,7 @@ h3.pad {
     margin-top:15px;
     color:#cccccc
 }
-.main_footer_area .single_f_widget .single_f_widget_text .socail_f_widget a i{
+.main_footer_area .single_f_widget .single_f_widget_text .social_f_widget a i{
     background: #fefefe;
     width:30px;
     height: 30px;
@@ -1360,7 +1360,7 @@ h3.pad {
     text-align: center;
     transition: all 0.3s;
 }
-.main_footer_area .single_f_widget .single_f_widget_text .socail_f_widget a:hover i{
+.main_footer_area .single_f_widget .single_f_widget_text .social_f_widget a:hover i{
     background: #70bf54;
     color:#fff;
 }
@@ -1386,25 +1386,25 @@ h3.pad {
     width: 23%;
     margin-bottom: 5px;
 }
-.main_coppyright{
+.main_copyright{
     border-top:2px solid #534a4a;
 }
-.main_coppyright p{
+.main_copyright p{
     color:#fff;
 }
-.main_coppyright p a {
+.main_copyright p a {
     color:#70bf54;
     padding: 0px 5px;
 }
-.main_coppyright p i {
+.main_copyright p i {
     color: #70bf54;
 }
-.main_coppyright .socail_coppyright a i {
+.main_copyright .social_copyright a i {
     color: #737373;
     padding: 0px 5px;
     transition: all 0.3s;
 }
-.main_coppyright .socail_coppyright a:hover i {
+.main_copyright .social_copyright a:hover i {
     color: #70bf54;
 }
 
