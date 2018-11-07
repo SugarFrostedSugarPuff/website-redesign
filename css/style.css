@@ -605,7 +605,8 @@ input[type=submit]:hover {
     margin:0;
     padding: 0;
 }
-.main_client_area .main_client_content .single_c_text span{
+
+.single_c_text span{
     font-size: 0.778rem;
     color: #70bf54;
     font-weight: 700;
@@ -630,8 +631,26 @@ input[type=submit]:hover {
     position: relative;
     width:60%;
 }
-
-
+@media (max-height: 400px) {
+    .single_client .img-circle{
+        max-width: 100px;
+    }
+}
+@media (max-width: 767px) {
+    .single_c_text p{
+        font-size: 75%;
+    }
+}
+@media (max-width: 400px) {
+    .single_c_text p{
+        font-size: 70%;
+    }
+}
+@media (max-width: 330px) {
+    .single_c_text p{
+        font-size: 60%;
+    }
+}
 /*==========================================================
                 Client section style
 ============================================================*/

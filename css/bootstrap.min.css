@@ -505,7 +505,8 @@ hr {
  transition:all .2s ease-in-out
 }
 .img-circle {
- border-radius:50%
+ border-radius:50%;
+ max-width:150px;
 }
 .figure {
  display:inline-block
@@ -4206,7 +4207,8 @@ button.close {
 .carousel-inner {
  position:relative;
  width:100%;
- overflow:hidden
+ overflow-x:auto;
+ overflow-y:auto;
 }
 .carousel-inner>.carousel-item {
  position:relative;
@@ -4273,7 +4275,6 @@ button.close {
  left:100%
 }
 .carousel-control {
- position:absolute;
  top:100px;
  bottom:175px;
  left:-10%;
