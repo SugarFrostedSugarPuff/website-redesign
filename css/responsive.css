@@ -13,9 +13,6 @@ Author URI: http://www.bootstrapthemes.co
     body {
         font-size: 1rem;
     }
-    h4 {
-        font-size:1rem !important;
-    }
     .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
         z-index: 2;
         height: 51px;
